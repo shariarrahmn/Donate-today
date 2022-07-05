@@ -6,9 +6,9 @@ body{
     margin:0%;
 }
 .header{
-    background: url(images/donation12.png);
+    background: url(images/donation9.jpg);
     background-size: cover;
-  
+    
     padding-top: 250px;
     padding-bottom: 183px;
     text-align: center;
@@ -18,10 +18,63 @@ body{
 .header h1{
     font-size: 50px;
 }
+.header p{
+    background-color: rgba(51, 27, 27, 0.575);
+    display: inline-block;
+}
 .link-button{
     text-decoration: none;
-    background-image: linear-gradient(orange,tomato);
+    background-image: linear-gradient(rgb(63, 0, 0),rgb(190, 27, 27));
     padding: 15px 30px;
     color: white;
-    border-radius: 30px;
+    border-radius: 10px;
+}
+.donation{
+    margin-top: 100px;
+ }
+.first-part{
+    text-align: center;
+}
+
+.first-part h1{
+    font-size: 50px;
+}
+.amount{
+    display: flex;
+    margin-top: 80px;
+    margin-left: 250px;
+}
+.amount-tk{
+    background-color: rgba(255, 160, 176, 0.171);
+    font-size: 20px;
+    padding: 30px;
+    margin-left: 20px;
+}
+.special-tk{
+    border: 2px rgb(255, 0, 43) solid;
+    color: rgb(255, 0, 43);
+    background-color: rgba(196, 95, 112, 0.459);
+    border-radius: 5px;
+}
+.input{
+    margin-top: 40px;
+    margin-left: 300px;
+    margin-bottom: 50px;
+    
+
+}
+.input input{
+    width: 725px;
+    padding: 30px 20px;
+    border: none;
+    border-bottom: 2px solid grey;
+}
+.link-2-button{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(228, 105, 152),rgb(255, 10, 84));
+    padding: 15px 30px;
+    color: white;
+    border-radius: 10px;
+    margin-left: 300px;
+    margin-top: 50px;
 }
