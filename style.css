@@ -76,5 +76,29 @@ body{
     color: white;
     border-radius: 10px;
     margin-left: 300px;
-    margin-top: 50px;
+   
+}
+.plan  {
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.donation-plan{
+    width: 30%;
+    background-color: rgba(255, 160, 176, 0.171);
+    border-radius: 20px;
+    padding: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+footer{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 80px 0;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    color: orange;
 }
